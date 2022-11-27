@@ -1,0 +1,20 @@
+nome = input ('Qual o seu nome: ')
+num = input (f'Tudo bem {nome}? Digite um número por favor: ')
+
+if num.isdigit():
+        if int(num) % 2 == 0:
+                print(f'{num} é um número par.')
+        else:
+                print(f'{num} é um número ímpar.')
+else:
+        print ('Por favor, utilize apenas números inteiros')
+        num = int (input (f' {nome}, digite apenas números inteiros: '))
+
+if  int(num) % 2 ==0:
+        print (f'{num} é um número par.')
+else:
+        print(f'{num} é um número ímpar.')
+        
+        
+        
+        There is an error in this code. When we put a whoe number in the first input, the number is readed, in this case, in the line 8 and the line 17. The aw
