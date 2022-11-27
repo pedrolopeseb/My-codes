@@ -14,7 +14,4 @@ if  int(num) % 2 ==0:
         print (f'{num} é um número par.')
 else:
         print(f'{num} é um número ímpar.')
-        
-        
-        
-        There is an error in this code. When we put a whoe number in the first input, the number is readed, in this case, in the line 8 and the line 17. The aw
+  
